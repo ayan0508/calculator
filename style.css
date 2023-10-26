@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(149, 152, 155);
+}
+table {
+    border: 1px solid black; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 100px;
+    border-collapse: collapse;
+    border: none;
+  }
+#calcu td {
+    border: none;
+}
+.calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+input[type="button"] { 
+    width: 100%; 
+    padding: 20px 40px; 
+    background-color: black; 
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+} 
+input[type="button"]:hover{
+    cursor: pointer;
+}
+  
+#sp { 
+   
+    background-color: rgb(60, 60, 60);  
+} 
+#sp1 { 
+   
+    background-color: rgb(9, 235, 171);  
+} 
+input[type="text"] { 
+    padding: 20px 30px; 
+    font-size: 24px; 
+    font-weight: bold; 
+    border: none; 
+    border: 2px solid black; 
+} 
